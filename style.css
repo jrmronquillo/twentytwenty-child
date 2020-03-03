@@ -1,11 +1,11 @@
 /*
-Theme Name: Twenty Twenty Child Base
+Theme Name: Twenty Twenty Child v1
 Text Domain: twentytwenty child base
 Version: 1.1
 template: twentytwenty
-Description: 
+Description: Twenty Twenty Child Theme
 Tags: 
-Author: 
+Author: Jerome Ronquillo
 Author URI: 
 Theme URI: 
 License: 
@@ -19,6 +19,19 @@ License URI:
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+#custom-area{
+  margin-top: 80vh;
+  height: 20vh;
+  width: 100vw;
+  background-color: #FFF;
+}
+
+#stream-frame{
+  background-color: #000;
+  height: 100vh;
+  width: 100vw;
 }
 
 @media (prefers-reduced-motion: no-preference) {
