@@ -12,19 +12,21 @@ get_header();
 ?>
 
 <main id="stream-frame" role="main">
-	<span> test text content</span>
 	
 	<div id="custom-area"> 
+		<div id="the-title"><?php the_title();?></div>
+
 		<?php
-			the_title();
 
 			if ( have_posts() ) {
 
-			while ( have_posts() ) {
+			while ( have_posts() ) {	
+
 				the_post();
-				the_content();
 				
-			 }
+		?>
+		<div id="the-post"> <?php the_content(); ?></div>
+		<?php	 }
 			}
 		?>
 	</div>

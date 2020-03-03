@@ -26,12 +26,21 @@ License URI:
   height: 20vh;
   width: 100vw;
   background-color: #FFF;
+  text-align: center;
 }
 
 #stream-frame{
   background-color: #000;
   height: 100vh;
   width: 100vw;
+}
+
+#the-post{
+
+}
+
+#the-title{
+  font-size: 3em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
