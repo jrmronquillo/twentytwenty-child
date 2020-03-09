@@ -8,3 +8,7 @@
 
 >added templates to support stream-frame.php
 >added css to support stream-frame.php
+
+# v3
+
+> installed latest version of front_page_react
