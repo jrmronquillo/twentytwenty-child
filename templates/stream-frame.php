@@ -25,7 +25,7 @@ get_header();
 				the_post();
 				
 		?>
-		<div id="the-post"> <?php the_content(); ?></div>
+		<div id="the-subtext"> <?php the_content(); ?></div>
 		<?php	 }
 			}
 		?>
