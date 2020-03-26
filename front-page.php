@@ -17,11 +17,11 @@ get_header()
 </main>
 
 
-<script src="/wp-content/themes/twentytwenty-child/static/js/2.bb992390.chunk.js"></script>
-<script src="/wp-content/themes/twentytwenty-child/static/js/main.54c2e486.chunk.js"></script>
+<script src="/wp-content/themes/twentytwenty-child/static/js/2.032bd953.chunk.js"></script>
+<script src="/wp-content/themes/twentytwenty-child/static/js/main.d5589753.chunk.js"></script>
 <script src="/wp-content/themes/twentytwenty-child/static/js/runtime-main.5e682c5b.js"></script>
 
 
 
 <?php
- get_footer();
+ #get_footer();

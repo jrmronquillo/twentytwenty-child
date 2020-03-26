@@ -5,12 +5,14 @@
 // @ https://digwp.com/2016/01/include-styles-child-theme/
 function enqueue_styles() {
 	
-	//enque child styles
+	//enqueue child styles
 	wp_enqueue_style('child-styles', get_stylesheet_directory_uri() .'/style.css');
 	// enqueue parent styles
 	wp_enqueue_style('parent-theme', get_template_directory_uri() .'/style.css');
 
 	wp_enqueue_style('font-awesome', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+	// enqueue child styles
+	wp_enqueue_style('react-styles', get_stylesheet_directory_uri() . '/static/css/main.2af1aea4.chunk.css');
 	
 }
 add_action('wp_enqueue_scripts', 'enqueue_styles');
