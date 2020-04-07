@@ -12,3 +12,7 @@
 # v3
 
 > installed latest version of front_page_react
+
+#v4
+
+>install front_page_react with css sprite update
