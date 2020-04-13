@@ -13,6 +13,11 @@
 
 > installed latest version of front_page_react
 
-#v4
+# v4
 
 >install front_page_react with css sprite update
+
+# v5
+
+>install front_page_react with css update to remove bg color from html,body
+>reduce bg image size
